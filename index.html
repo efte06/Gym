@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efte Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        /* css style */
+
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('photo-1534438327276-14e5300c3a48.jpg');
+            background-size: cover;
+            color: white;
+        }
+
+        .left {
+            
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 15px;
+            text-align: center;
+        }
+
+        .left img {
+            width: 60px;
+            filter: invert(100%);
+        }
+
+        .mid {
+        
+
+            display: block;
+            width: 37%;
+            margin: 15px auto;
+
+        }
+
+        .right {
+        
+
+            position: absolute;
+            display: inline-block;
+            right: 34px;
+            top: 20px
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+            padding: 0px 12px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 14px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            border: 2px solid black;
+            margin: 70px 32px;
+            padding: 40px 2px;
+            
+            color: rgb(133, 182, 228);
+            width: 30%;
+            border-radius: 15px;
+            text-align: center ;
+
+
+        }
+        .form-group input{
+            
+            
+           
+            padding: 6px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="">
+        <div class="left">
+            <img src="288-2888589_transparent-gym-logo-png.png" alt="">
+            <div>Efte Fitness</div>
+
+            <!-- for logo -->
+
+        </div>
+        <div class="mid">
+
+            <!-- for button -->
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- for navigations -->
+            <button class="btn">call us now</button>
+            <button class="btn">Email Now</button>
+        </div>
+    </header>
+    <div class="container">
+        
+        <h1>join the best gym of Dhaka</h1>
+        <form action="noaction.php">
+<div class="form-group">
+    <input type="text" name="name" placeholder="Enter Your name " >
+</div>
+<div class="form-group">
+    <input type="number" name="name" placeholder="Enter Your Mobile number " >
+</div>
+<div class="form-group">
+    <input type="email" name="name" placeholder="Enter Your Email " >
+</div>
+<div class="form-group">
+    <input type="text" name="name" placeholder="Enter Your address " >
+</div>
+<button class="btn">submit</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
